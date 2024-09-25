@@ -1,4 +1,4 @@
-const apiKey = 'YOUR_API_KEY';
+const apiKey = '9e9e03284219d5c6d252a17057';
 const apiUrl = 'https://v6.exchangerate-api.com/v6/' + apiKey + '/latest/KZT';
 
 async function getExchangeRates() {
