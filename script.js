@@ -18,3 +18,4 @@ function showExchangeRates(rates) {
     const defRate = `1 KZT = ${rates.USD} USD, ${rates.EUR} EUR`;
     document.getElementById('def_rate').textContent = defRate;
 }
+
