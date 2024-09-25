@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 13 Home Work Antipov</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Lesson 13 Home Work</h1>
+    
+    <h2>Конвертер валют</h2>
+    <div id="top_default">Курс конвертации USD/KZT: <span id="def_rate"></span></div>
+    <div id="converter">
+        <input id="input_cur" type="number">
+        <select id="a_cur">
+            <option value="KZT">Тенге (KZT)</option>
+            <option value="USD">Доллар (USD)</option>
+            <option value="EUR">Евро (EUR)</option>
+        </select>
+        <select id="b_cur">
+            <option value="USD">Доллар (USD)</option>
+            <option value="EUR">Евро (EUR)</option>
+            <option value="KZT">Тенге (KZT)</option>
+        </select>
+        <input id="convert" type="button" value="Конвертировать">
+    </div>
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
